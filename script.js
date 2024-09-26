@@ -1,0 +1,10 @@
+import { greet } from "./modules/greeting.js";
+import { celsiusToFahrenheit } from "./modules/convTemperature.js";
+import { calculateFallDistance } from "./modules/fallDistance.js";
+import { calculateAverage } from "./modules/average.js";
+import { concatStrings } from "./modules/concatenation.js";
+greet();
+console.log(celsiusToFahrenheit(20));
+console.log(calculateFallDistance(30));
+console.log("Среднее арифметическое чисел 10, 20 и 30 = " + calculateAverage(10, 20, 30));
+console.log(concatStrings("Hello", "World"));
